@@ -1,9 +1,11 @@
+import ProfileCard from "./Components/ProfileCard";
 import TodoList from "./Components/TodoList";
 
 const App = () => {
   return (
     <div>
-      <TodoList />
+      {/* <TodoList /> */}
+      <ProfileCard />
     </div>
   );
 };
